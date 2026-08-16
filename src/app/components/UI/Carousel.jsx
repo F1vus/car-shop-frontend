@@ -64,7 +64,7 @@ function Carousel({ photos = [], altPrefix = "photo" }) {
   };
 
   const mainPhotoUrl =
-    config.photosEndpoint + photos[index].url + getBestSize();
+    config.photosEndpoint + photos[index].url + "original"
 
   const hasMultiple = photos.length > 1;
 
